@@ -7,11 +7,26 @@ iOS Confetti View 🎉
 
 ```Swift
        let confettiView = KConfettiView(frame: self.view.bounds)
-    // confettiView.cellCount = 15
-   //  confettiView.image = #imageLiteral(resourceName: "diamond.png")
        confettiView.setup()
        view.addSubview(confettiView)
 ```
+
+##### Other veriables
+
+```Swift
+    .coefficient
+    .cellCount
+    .image
+    .color
+    .defaultConfettiSize
+```
+
+##### Clear
+
+```Swift
+    confettiView.remove()
+```
+
 
 ## License
 Usage is provided under the [MIT License](http://http//opensource.org/licenses/mit-license.php). See LICENSE for the full details.
